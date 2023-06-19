@@ -1,0 +1,5 @@
+let joke=['A pair of cows were talking in the field. One says, Have you heard about the mad cow disease that’s going around?Yeah,the other cow says.Makes me glad I’m a penguin.','Once, my father came home and found me in front of a roaring fire. That made my father very mad, as we didn’t have a fireplace.','Your mother has been with us for 20 years,said John.Isn’t it time she got a place of her own?My mother? replied Helen.I thought she was your mother','Why don’t pirates take a shower before they walk the plank?They just wash up on shore.','In Denver, the members of a Sunday­-school class were asked to set down their favorite biblical truths. One youngster laboriously printed:Do one to others as others do one to you.','One of the oddities of Wall Street is that it is the dealer and not the customer who is called broker.']
+let n=joke.length
+//console.log(n)
+let index=Math.floor(Math.random() * n)
+console.log(joke[index])
